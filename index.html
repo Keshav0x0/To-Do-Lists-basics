@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Arima:wght@100..700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lilita+One&family=Matemasie&family=Nerko+One&family=New+Amsterdam&family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="bg"></div>
+     
+    <div class="to-do-section">
+      <h3>Make your list now !</h3>
+      <h2><i class="fa-solid fa-list"></i> To-Do list </h2>
+      <div class="add-list">
+        <input type="text" placeholder="+ Add new task" id="input-value" required>
+        <button type="button" id="add"><span class="addspan">Add</span><span class="plus-icon"><i class="fa-solid fa-plus"></i></span></button>
+      </div>
+      <div class="update-list">
+        <input type="text" id="update-value" required>
+        <button type="button" id="updateToDo"><span class="updatespan">Update</span><span class="pen-icon"><i class="fa-solid fa-pen-to-square"></i></span></button>
+      </div>
+      <div class="list">
+        <h2 class="heading-work">All Works to do</h2>
+        <div class="empty-box">Empty</div>
+        <div class="lists-container"></div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
